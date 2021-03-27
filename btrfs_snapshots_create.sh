@@ -73,7 +73,7 @@ for disk in /mnt/disk*[0-9]* ; do
                     btrfs subvolume create $share/.snapshots
                 fi
                 
-                #make new snap
+                #make new snap - change timestamp
                 btrfs subvolume snap ${share} ${share}/.snapshots/${SNAPSHOT_FORMAT}
                 touch ${share}/.snapshots/${SNAPSHOT_FORMAT}
                 btrfs property set -ts ${share}/.snapshots/${SNAPSHOT_FORMAT} ro true
