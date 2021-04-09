@@ -4,7 +4,7 @@ brtfs shapshots within unRaid
 
 Changes in the original version found in der unRaid forums https://forums.unraid.net/topic/86674-btrfs-incremental-snapshots/:
 
-- turning on "Enhanced macOS interoperability" brakes the file versioning for Windows clients
+- turning on "Enhanced macOS interoperability" breakes the file versioning for Windows clients
 - place .snapshot directory in the /mnt/diskX/shareX/.snapshot/xxx
 - this make snapshots usable for Windwos and MacOS clients
 - korrekt the snapshot timestamp for sorting
